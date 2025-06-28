@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "b1a09e17-b204-4b77-9b13-d3281c9bc04e",
+		"name": "Book Micro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44649527",
+		"_collection_link": "https://www.postman.com/technical-geoscientist-26659999/workspace/sls/collection/44649527-b1a09e17-b204-4b77-9b13-d3281c9bc04e?action=share&source=collection_link&creator=44649527"
+	},
+	"item": [
+		{
+			"name": "add book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "fetch book by keyword",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "fetch book by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update book info",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "book availability",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
