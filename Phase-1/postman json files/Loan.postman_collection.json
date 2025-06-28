@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "288a8413-3f66-4867-8980-e3337737ca9a",
+		"name": "Loan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44649527",
+		"_collection_link": "https://www.postman.com/technical-geoscientist-26659999/workspace/sls/collection/44649527-288a8413-3f66-4867-8980-e3337737ca9a?action=share&source=collection_link&creator=44649527"
+	},
+	"item": [
+		{
+			"name": "add loan",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "fetch loan",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get loanlist by uid",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "overdue list",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

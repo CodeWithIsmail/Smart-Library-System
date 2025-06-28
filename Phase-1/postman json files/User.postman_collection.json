@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "a41e0237-5060-4805-9ae0-b24618c55a30",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44649527",
+		"_collection_link": "https://www.postman.com/technical-geoscientist-26659999/workspace/sls/collection/44649527-a41e0237-5060-4805-9ae0-b24618c55a30?action=share&source=collection_link&creator=44649527"
+	},
+	"item": [
+		{
+			"name": "add user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "fetch user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

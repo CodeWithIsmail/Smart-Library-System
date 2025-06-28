@@ -13,8 +13,8 @@ const bookSchema = new mongoose.Schema(
     },
     isbn: {
       type: String,
-      required: true,
       unique: true,
+      required: true,
     },
     copies: {
       type: Number,
@@ -27,7 +27,9 @@ const bookSchema = new mongoose.Schema(
       },
     },
   },
-  { timestamps: true }
+  {
+    timestamps: true,
+  }
 );
 
 const Book = mongoose.model("Book", bookSchema);
