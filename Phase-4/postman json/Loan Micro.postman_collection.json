@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "7be224c5-a7ce-43b4-a348-0b53e602c164",
+		"name": "Loan Micro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44649527",
+		"_collection_link": "https://www.postman.com/technical-geoscientist-26659999/workspace/sls/collection/44649527-7be224c5-a7ce-43b4-a348-0b53e602c164?action=share&source=collection_link&creator=44649527"
+	},
+	"item": [
+		{
+			"name": "add loan",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "return loan",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get loanlist by uid",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

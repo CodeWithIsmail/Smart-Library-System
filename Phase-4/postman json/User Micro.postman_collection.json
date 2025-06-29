@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "40a3fac2-e51a-45bb-8f27-1006d86e7fa6",
+		"name": "User Micro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44649527",
+		"_collection_link": "https://www.postman.com/technical-geoscientist-26659999/workspace/sls/collection/44649527-40a3fac2-e51a-45bb-8f27-1006d86e7fa6?action=share&source=collection_link&creator=44649527"
+	},
+	"item": [
+		{
+			"name": "add user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "fetch user",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  user_service:
+    image: user_service:latest
+    container_name: user_service
+    ports:
+      - "3001:3001"
+    networks:
+      - smart_library_network
+
+  book_service:
+    image: book_service:latest
+    container_name: book_service
+    ports:
+      - "3002:3002"
+    networks:
+      - smart_library_network
+
+  loan_service:
+    image: loan_service:latest
+    container_name: loan_service
+    ports:
+      - "3003:3003"
+    networks:
+      - smart_library_network
+    environment:
+      - USER_SERVICE_URL=http://user_service:3001
+      - BOOK_SERVICE_URL=http://book_service:3002
+
+networks:
+  smart_library_network:
+    driver: bridge
